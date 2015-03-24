@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false
+  },
+  "rules": {}
+}

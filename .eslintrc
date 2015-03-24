@@ -3,19 +3,11 @@
   "env": {
     "node": true
   },
-  "globals": {
-  },
-  "plugins": [
-    "react"
-  ],
+  "globals": {},
+  "plugins": ["react"],
   "rules": {
-    // Rules for React components
-
-    // Allow to have more than 1 component per file, left at the discretion of
-    // the developper
     "react/no-multi-comp": 0,
     "react/prop-types": 1,
-    // JSX takes care of that
     "react/display-name": 0,
     "react/wrap-multilines": 1,
     "react/self-closing-comp": 1,
@@ -24,10 +16,6 @@
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
     "react/react-in-jsx-scope": 1,
-
-    // First number is error level 0: ignore, 1: warning, 2: error
-    // Second is option ie: [1, "double"] = Warn using double option
-    // Code style
     "camelcase": 1,
     "curly": [2, "all"],
     "indent": [2, 2],
@@ -36,16 +24,21 @@
     "no-eq-null": 2,
     "no-self-compare": 2,
     "no-throw-literal": 2,
-    "no-unused-vars": [2, {"args": "after-used"}],
+    "no-unused-vars": [2, {
+      "args": "after-used"
+    }],
     "quotes": [2, "double"],
     "wrap-iife": [2, "outside"],
-    "yoda": [2, "never", { "exceptRange": true }],
+    "yoda": [2, "never", {
+      "exceptRange": true
+    }],
     "space-infix-ops": 2,
     "no-new": 1,
-    // Allow multi spaces for variable declaration (alignement)
-    "no-multi-spaces": [2, { "exceptions": { "VariableDeclarator": true } }],
-
-    // Disable default options
+    "no-multi-spaces": [2, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }],
     "comma-dangle": 0,
     "consistent-return": 0,
     "no-mixed-requires": 0,
