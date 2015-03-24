@@ -11,7 +11,7 @@
     "eslint-myrules": "./bin/eslint.js"
   },
   "scripts": {
-    "lint": "node bin/eslint.js lib"
+    "lint": "node bin/eslint.js lint --debug"
   },
   "author": "Michael Ferris",
   "dependencies": {
@@ -24,15 +24,5 @@
     "json5": "^0.4.0",
     "lodash.merge": "^3.0.3",
     "lodash.toarray": "^3.0.0"
-  },
-  "eslint-myrules": {
-    "targets": {
-      "backend": [
-        "tests/backend"
-      ],
-      "frontend": [
-        "tests/frontend"
-      ]
-    }
   }
 }
