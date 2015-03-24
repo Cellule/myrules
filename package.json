@@ -22,15 +22,17 @@
     "eslint-plugin-react": "^1.5.0",
     "js-beautify": "^1.5.5",
     "json5": "^0.4.0",
+    "lodash.merge": "^3.0.3",
     "lodash.toarray": "^3.0.0"
   },
   "eslint-myrules": {
     "targets": {
-      "backend": ["tests/backend"],
-      "frontend": ["tests/frontend"]
-    },
-    "modifiers": {
-      "react": true
+      "backend": [
+        "tests/backend"
+      ],
+      "frontend": [
+        "tests/frontend"
+      ]
     }
   }
 }
