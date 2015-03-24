@@ -28,6 +28,9 @@
     "targets": {
       "backend": ["tests/backend"],
       "frontend": ["tests/frontend"]
+    },
+    "modifiers": {
+      "react": true
     }
   }
 }
