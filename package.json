@@ -20,6 +20,7 @@
     "commander": "^2.7.1",
     "eslint": "^0.17.1",
     "eslint-plugin-react": "^1.5.0",
+    "eslint-plugin-shadow-exception": "^1.1.0",
     "js-beautify": "^1.5.5",
     "json5": "^0.4.0",
     "lodash.merge": "^3.0.3",

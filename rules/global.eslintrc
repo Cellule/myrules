@@ -5,8 +5,22 @@
   },
   "globals": {
   },
-  "plugins": [],
+  "plugins": [
+    "shadow-exception"
+  ],
   "rules": {
+    "shadow-exception/no-shadow": [2, {
+      "exceptions": {
+        "err": true,
+        "next": true,
+        "callback": true,
+        "cb": true,
+        "res": true,
+        "result": true,
+        "response": true
+      }
+    }],
+    "no-shadow": 0,
     // First number is error level 0: ignore, 1: warning, 2: error
     // Second is option ie: [1, "double"] = Warn using double option
     // Code style
@@ -26,6 +40,7 @@
     "no-new": 1,
     // Allow multi spaces for variable declaration (alignement)
     "no-multi-spaces": [2, { "exceptions": { "VariableDeclarator": true } }],
+    "no-use-before-define": [2, "nofunc"],
 
     // Disable default options
     "comma-dangle": 0,
