@@ -25,7 +25,9 @@
     "lodash.toarray": "^3.0.0"
   },
   "eslint-myrules": {
-    "backend": [],
-    "frontend": []
+    "targets": {
+      "backend": [],
+      "frontend": []
+    }
   }
 }
